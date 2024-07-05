@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav a:hover{
+    text-shadow: 2px 2px 6px rgb(223, 100, 100);
+}
+nav ul li a{
+    color: crimson;
+    font-weight: bolder;
+    margin: 20px;
+    text-decoration: none;
+    
+
+}
+video{
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: bisque;
+}
+h1{
+    color: aliceblue;
+}
+h1:hover{
+    text-shadow: 2px 2px 6px rgb(222, 22, 22);
+    text-decoration: underline;
+}
+span{
+    color: rgb(228, 53, 123);
+    font-size: 30px;
+}
+#home{
+    display: flex;
+    flex direction: column;
+    height:800px;
+    width: 100%;
+}
+#home::before{
+    content:" ";
+    background-image: url(https://mishpacha.com/wp-content/uploads/2022/07/So-You-Want-to-Be-a%E2%80%A6-Web-Developer-R.jpg);
+    background-size: cover;
+    height:100% ;
+    width: 100%;
+}
+.main{
+    display: flex;
+    position: absolute;
+    border: 3px ridge blue;
+    padding: 20px;
+    height: 100px;
+    margin-top: 25%;
+    left: 40%;
+    box-shadow: 2px 4px 6px blueviolet;
+
+    
+}
+.main:hover{
+    scale: 1.05;
+    background-color: rgb(152, 163, 218);
+
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 400px;
+}
+.pic h4{
+    text-align: center;
+    color: darkgreen;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.pic p{
+    text-align: justify;
+    padding: 10px;
+    font-style: italic;
+
+}
+h3{
+    text-align: center;
+    background-color: rgb(39, 119, 119);
+    color: rgb(156, 11, 11);
+    margin-top: 5px;
+
+}
+.gallery{
+    border: 3px inset purple;
+    margin: 5px;
+    box-shadow: 2px 2px 6px violet;
+    
+}
+.gallery img{
+    width: 350px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.gallery img:hover{
+    box-shadow: 2px 2px 6px blueviolet;
+    scale: 1.06;
+}
+.row{
+    background-color: grey;
+    display: flex;
+    height: 400px;
+    
+
+}
+.box{
+    border: 2px inset purple;
+    height: 380px;
+    margin:10px;
+    padding: 10px;
+    background: linear-gradient(to top,rgb(255, 178, 178)50%, rgb(39, 119, 119 )50%) ;
+    background-size: 100% 200%;
+    transition: all 0.6s;
+}
+.box:hover{
+    background-position: right bottom;
+}
+.box img{
+    width: 100%;
+
+}
+.box h5{
+    margin-top: 30px;
+    color: rgb(13, 6, 83);
+    font-size: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+.box h5:hover{
+    text-decoration: underline;
+}
+.box p{
+    text-align: justify;
+    font-style: inherit;
+}
+form{
+    width: 450px;
+    margin-left: 300px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: rgb(229, 229, 229);
+    background-color: rgb(53, 39, 39) ;
+    padding: 9px;
+    cursor: pointer;
+    width: 450px;
+    margin-left: 17px ;
+}
+.cv{
+    background-color: rgb(3, 26, 70);
+    border: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 60%;
+
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f499cb; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #005340; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fe0808; 
+  }
+  .footer{
+    text-align: center;
+    color: rgb(0, 0, 68);
+  }
+  .footer h4{
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .footer col{
+    display: flex;
+    justify-content: center;
+  }
